@@ -17,16 +17,15 @@ async function getapi(url) {
 	// Storing response 
 	const response = await fetch(url); 
 	
-	// Storing data in form of JSON 
-	var data = await response; 
-	console.log(data); 
+	console.log(response); 
 	if (response) { 
 		hideloader(); 
 	} 
-	show(data); 
+	show(response); 
+	return response
 } 
 // Calling that async function 
-getapi(api_url); 
+console.log(getapi(api_url)); 
 
 // Function to hide the loader 
 function hideloader() { 
