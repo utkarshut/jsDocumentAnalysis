@@ -18,7 +18,7 @@ async function getapi(url) {
 	const response = await fetch(url); 
 	
 	// Storing data in form of JSON 
-	var data = await response.json(); 
+	var data = await response; 
 	console.log(data); 
 	if (response) { 
 		hideloader(); 
