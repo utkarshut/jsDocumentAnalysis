@@ -1,0 +1,8 @@
+/* Add your styles here */
+
+#fetchedData,#wordMapData{
+    background: lightgray;
+    width: 800px;
+    height: 100px;
+    overflow-y: scroll;
+}
