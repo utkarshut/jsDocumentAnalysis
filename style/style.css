@@ -10,7 +10,8 @@
 }
 #fetchedData,#wordMapData,#topTenWord,#topTenWordDetails,#topTenWordJSONFormat{
     background: lightgray;
-    width: 800px;
+    width: 80%;
+    overflow-wrap: break-word;
     height: 100px;
     overflow-y: scroll;
     margin: 10px;
