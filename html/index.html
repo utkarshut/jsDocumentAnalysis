@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<script src="../js/main.js"></script> 
+		<link rel="stylesheet" href="lib/style.css" /> 
+		<meta charset="UTF-8" /> 
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0" /> 
+		<title>Document</title> 
+	</head> 
+	<body> 
+		<!-- Here a loader is created which 
+			loads till response comes -->
+		<div class="d-flex justify-content-center"> 
+			<div id="loader">
+        <img src='../style/5.gif'/>
+      </div>
+		</div> 
+    <div class='question'>Fetch document from given url http://norvig.com/big.txt</div>
+    <div id="fetchedData"></div> 
+    <div class='question'>Find occurrences count of word in document</div>
+    <div id="wordMapData"></div> 
+    <div class='question'>Top ten words</div>
+    <div id="topTenWord"></div>
+    <div class='question'>Collect details for top 10 words(order by word Occurances) from https://dictionary.yandex.net/api/v1/dicservice.json/lookup</div>
+    <div id="topTenWordDetails"></div>
+    <div class='question'>Show words list in JSON format for top 10 words</div>
+    <div id="topTenWordJSONFormat"></div>
+	</body> 
+</html> 
+

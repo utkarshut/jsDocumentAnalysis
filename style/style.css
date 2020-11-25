@@ -1,0 +1,44 @@
+/* Add your styles here */
+
+/* Add your styles here */
+*{
+    font-family: -apple-system, sytem-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+
+    color: rgb(40, 40, 41);
+}
+#fetchedData,#wordMapData,#topTenWord,#topTenWordDetails,#topTenWordJSONFormat{
+    background: lightgray;
+    width: 800px;
+    height: 100px;
+    overflow-y: scroll;
+    margin: 10px;
+    padding: 10px;
+}
+.question{
+    font-weight: bold;
+}
+#loader {
+   position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#loader:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
